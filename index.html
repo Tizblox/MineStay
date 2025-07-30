@@ -1,0 +1,452 @@
+
+const Eris = require("eris");
+
+const keep_alive = require('./keep_alive.js'<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Bot Controller</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .card {
+            background-color: #2d2d2d;
+            border: 1px solid #444;
+        }
+        
+        .btn-minecraft {
+            background-color: #4CAF50;
+            border-color: #4CAF50;
+            color: white;
+        }
+        
+        .btn-minecraft:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
+        
+        .btn-danger-minecraft {
+            background-color: #f44336;
+            border-color: #f44336;
+            color: white;
+        }
+        
+        .console {
+            background-color: #000;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            height: 400px;
+            overflow-y: auto;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #444;
+        }
+        
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        
+        .status-online {
+            background-color: #4CAF50;
+            box-shadow: 0 0 10px #4CAF50;
+        }
+        
+        .status-offline {
+            background-color: #f44336;
+            box-shadow: 0 0 10px #f44336;
+        }
+        
+        .minecraft-title {
+            color: #4CAF50;
+            text-shadow: 2px 2px 4px rgba(76, 175, 80, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center minecraft-title">
+                    <i class="fas fa-cube"></i> Minecraft Bot Controller
+                </h1>
+                <p class="text-center text-muted">Server: Gruppovideogiochi.aternos.me</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <!-- Control Panel -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-cogs"></i> Controlli Bot</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label class="form-label">Stato Bot:</label>
+                            <div>
+                                <span class="status-indicator" id="statusIndicator"></span>
+                                <span id="statusText">Disconnesso</span>
+                            </div>
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-minecraft" id="startBtn">
+                                <i class="fas fa-play"></i> Avvia Bot
+                            </button>
+                            <button class="btn btn-danger-minecraft" id="stopBtn" disabled>
+                                <i class="fas fa-stop"></i> Ferma Bot
+                            </button>
+                            <button class="btn btn-warning" id="restartBtn" disabled>
+                                <i class="fas fa-redo"></i> Riavvia Bot
+                            </button>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="mb-3">
+                            <label for="chatInput" class="form-label">Invia Messaggio:</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="chatInput" placeholder="Scrivi un messaggio...">
+                                <button class="btn btn-minecraft" id="sendBtn" disabled>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bot Stats -->
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <h5><i class="fas fa-chart-bar"></i> Statistiche Bot</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-6">
+                                <div class="mb-2">
+                                    <i class="fas fa-heart text-danger"></i>
+                                    <small class="d-block">Salute</small>
+                                    <span id="healthStat">--/20</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-2">
+                                    <i class="fas fa-utensils text-warning"></i>
+                                    <small class="d-block">Cibo</small>
+                                    <span id="foodStat">--/20</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-2">
+                                    <i class="fas fa-users text-info"></i>
+                                    <small class="d-block">Giocatori</small>
+                                    <span id="playersStat">--</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-2">
+                                    <i class="fas fa-wifi text-success"></i>
+                                    <small class="d-block">Riconnessioni</small>
+                                    <span id="reconnectStat">--</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="mb-2">
+                            <small class="text-muted">Posizione:</small>
+                            <div id="positionStat">X: --, Y: --, Z: --</div>
+                        </div>
+                        
+                        <div class="mb-2">
+                            <small class="text-muted">Username:</small>
+                            <div id="usernameStat">--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Console Log -->
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5><i class="fas fa-terminal"></i> Console Log</h5>
+                        <button class="btn btn-sm btn-outline-light" id="clearConsoleBtn">
+                            <i class="fas fa-trash"></i> Pulisci
+                        </button>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="console" id="console">
+                            <div>Minecraft Bot Controller v1.0</div>
+                            <div>Pronto per la connessione...</div>
+                            <div>========================================</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Commands Panel -->
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <h5><i class="fas fa-keyboard"></i> Comandi Rapidi</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class="btn btn-outline-light btn-sm mb-2 w-100 quick-cmd" data-cmd="!help">
+                                    <i class="fas fa-question-circle"></i> Help
+                                </button>
+                                <button class="btn btn-outline-light btn-sm mb-2 w-100 quick-cmd" data-cmd="!status">
+                                    <i class="fas fa-info-circle"></i> Status
+                                </button>
+                                <button class="btn btn-outline-light btn-sm mb-2 w-100 quick-cmd" data-cmd="!players">
+                                    <i class="fas fa-users"></i> Players
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-outline-light btn-sm mb-2 w-100 quick-cmd" data-cmd="!time">
+                                    <i class="fas fa-clock"></i> Time
+                                </button>
+                                <button class="btn btn-outline-light btn-sm mb-2 w-100 quick-cmd" data-cmd="!pos">
+                                    <i class="fas fa-map-marker-alt"></i> Position
+                                </button>
+                                <button class="btn btn-outline-light btn-sm mb-2 w-100 quick-cmd" data-cmd="!health">
+                                    <i class="fas fa-heart"></i> Health
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        class BotController {
+            constructor() {
+                this.isConnected = false;
+                this.initializeElements();
+                this.bindEvents();
+                this.startStatusUpdates();
+            }
+
+            initializeElements() {
+                this.startBtn = document.getElementById('startBtn');
+                this.stopBtn = document.getElementById('stopBtn');
+                this.restartBtn = document.getElementById('restartBtn');
+                this.sendBtn = document.getElementById('sendBtn');
+                this.chatInput = document.getElementById('chatInput');
+                this.console = document.getElementById('console');
+                this.clearConsoleBtn = document.getElementById('clearConsoleBtn');
+                this.statusIndicator = document.getElementById('statusIndicator');
+                this.statusText = document.getElementById('statusText');
+                
+                // Stats elements
+                this.healthStat = document.getElementById('healthStat');
+                this.foodStat = document.getElementById('foodStat');
+                this.playersStat = document.getElementById('playersStat');
+                this.reconnectStat = document.getElementById('reconnectStat');
+                this.positionStat = document.getElementById('positionStat');
+                this.usernameStat = document.getElementById('usernameStat');
+            }
+
+            bindEvents() {
+                this.startBtn.addEventListener('click', () => this.startBot());
+                this.stopBtn.addEventListener('click', () => this.stopBot());
+                this.restartBtn.addEventListener('click', () => this.restartBot());
+                this.sendBtn.addEventListener('click', () => this.sendMessage());
+                this.clearConsoleBtn.addEventListener('click', () => this.clearConsole());
+                
+                this.chatInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        this.sendMessage();
+                    }
+                });
+
+                // Quick commands
+                document.querySelectorAll('.quick-cmd').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const cmd = e.currentTarget.dataset.cmd;
+                        this.chatInput.value = cmd;
+                        this.sendMessage();
+                    });
+                });
+            }
+
+            async startBot() {
+                this.logToConsole('Avvio del bot...', 'info');
+                this.updateUI(true);
+                
+                // Simula l'avvio del bot (in una vera implementazione, questo farebbe una chiamata API)
+                setTimeout(() => {
+                    this.isConnected = true;
+                    this.logToConsole('Bot connesso con successo!', 'success');
+                    this.logToConsole('Connesso a Gruppovideogiochi.aternos.me', 'info');
+                    this.updateStatus();
+                }, 2000);
+            }
+
+            async stopBot() {
+                this.logToConsole('Fermando il bot...', 'warning');
+                this.isConnected = false;
+                this.updateUI(false);
+                this.logToConsole('Bot fermato', 'error');
+                this.updateStatus();
+            }
+
+            async restartBot() {
+                this.logToConsole('Riavvio del bot...', 'warning');
+                await this.stopBot();
+                setTimeout(() => this.startBot(), 1000);
+            }
+
+            sendMessage() {
+                const message = this.chatInput.value.trim();
+                if (!message) return;
+                
+                if (!this.isConnected) {
+                    this.logToConsole('Bot non connesso, impossibile inviare messaggio', 'error');
+                    return;
+                }
+
+                this.logToConsole(`> ${message}`, 'command');
+                this.chatInput.value = '';
+                
+                // Simula risposta del bot per alcuni comandi
+                this.simulateCommandResponse(message);
+            }
+
+            simulateCommandResponse(command) {
+                setTimeout(() => {
+                    if (command === '!help') {
+                        this.logToConsole('Comandi disponibili: !help, !status, !time, !pos, !players, !health', 'response');
+                    } else if (command === '!status') {
+                        this.logToConsole('Bot attivo - Salute: 20/20, Cibo: 18/20, Giocatori online: 3', 'response');
+                    } else if (command === '!players') {
+                        this.logToConsole('Giocatori online (3): Player1, Player2, Player3', 'response');
+                    } else {
+                        this.logToConsole(`Comando eseguito: ${command}`, 'response');
+                    }
+                }, 500);
+            }
+
+            updateUI(connected) {
+                this.startBtn.disabled = connected;
+                this.stopBtn.disabled = !connected;
+                this.restartBtn.disabled = !connected;
+                this.sendBtn.disabled = !connected;
+                this.chatInput.disabled = !connected;
+            }
+
+            updateStatus() {
+                if (this.isConnected) {
+                    this.statusIndicator.className = 'status-indicator status-online';
+                    this.statusText.textContent = 'Connesso';
+                    
+                    // Update stats with simulated data
+                    this.healthStat.textContent = '20/20';
+                    this.foodStat.textContent = '18/20';
+                    this.playersStat.textContent = '3';
+                    this.reconnectStat.textContent = '0';
+                    this.positionStat.textContent = 'X: 128, Y: 64, Z: -45';
+                    this.usernameStat.textContent = 'MinecraftBot';
+                } else {
+                    this.statusIndicator.className = 'status-indicator status-offline';
+                    this.statusText.textContent = 'Disconnesso';
+                    
+                    // Reset stats
+                    this.healthStat.textContent = '--/20';
+                    this.foodStat.textContent = '--/20';
+                    this.playersStat.textContent = '--';
+                    this.reconnectStat.textContent = '--';
+                    this.positionStat.textContent = 'X: --, Y: --, Z: --';
+                    this.usernameStat.textContent = '--';
+                }
+            }
+
+            logToConsole(message, type = 'info') {
+                const timestamp = new Date().toLocaleTimeString();
+                const logEntry = document.createElement('div');
+                
+                let prefix = '';
+                let style = '';
+                
+                switch(type) {
+                    case 'success':
+                        prefix = '[SUCCESS]';
+                        style = 'color: #4CAF50;';
+                        break;
+                    case 'error':
+                        prefix = '[ERROR]';
+                        style = 'color: #f44336;';
+                        break;
+                    case 'warning':
+                        prefix = '[WARNING]';
+                        style = 'color: #ff9800;';
+                        break;
+                    case 'command':
+                        prefix = '[COMMAND]';
+                        style = 'color: #2196F3;';
+                        break;
+                    case 'response':
+                        prefix = '[RESPONSE]';
+                        style = 'color: #9C27B0;';
+                        break;
+                    default:
+                        prefix = '[INFO]';
+                        style = 'color: #00ff00;';
+                }
+                
+                logEntry.innerHTML = `<span style="${style}">${timestamp} ${prefix} ${message}</span>`;
+                this.console.appendChild(logEntry);
+                this.console.scrollTop = this.console.scrollHeight;
+            }
+
+            clearConsole() {
+                this.console.innerHTML = `
+                    <div>Minecraft Bot Controller v1.0</div>
+                    <div>Console pulita...</div>
+                    <div>========================================</div>
+                `;
+            }
+
+            startStatusUpdates() {
+                // Simula aggiornamenti di stato periodici
+                setInterval(() => {
+                    if (this.isConnected) {
+                        // Simula eventi casuali
+                        const events = [
+                            'Player1 è entrato nel server',
+                            'Salute rigenerata',
+                            'Messaggio ricevuto in chat',
+                            'Posizione aggiornata'
+                        ];
+                        
+                        if (Math.random() < 0.1) { // 10% di probabilità ogni secondo
+                            const event = events[Math.floor(Math.random() * events.length)];
+                            this.logToConsole(event, 'info');
+                        }
+                    }
+                }, 5000);
+            }
+        }
+
+        // Inizializza il controller quando la pagina è caricata
+        document.addEventListener('DOMContentLoaded', () => {
+            new BotController();
+        });
+    </script>
+</body>
+</html>

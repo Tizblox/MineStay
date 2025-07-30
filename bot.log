@@ -1,0 +1,597 @@
+2025-07-30 14:09:57 [INFO] Avvio del bot Minecraft...
+2025-07-30 14:09:57 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:09:58 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 14:09:58 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:09:58 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:10:03 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:10:03 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:10:03 [INFO] Tentativo di riconnessione 2/10 in 10 secondi...
+2025-07-30 14:10:13 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:10:14 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:10:14 [INFO] Tentativo di riconnessione 3/10 in 15 secondi...
+2025-07-30 14:10:29 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:10:30 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:10:30 [INFO] Tentativo di riconnessione 4/10 in 20 secondi...
+2025-07-30 14:10:50 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:10:50 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:10:50 [INFO] Tentativo di riconnessione 5/10 in 25 secondi...
+2025-07-30 14:11:15 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:11:16 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:11:16 [INFO] Tentativo di riconnessione 6/10 in 30 secondi...
+2025-07-30 14:11:46 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:12:01 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:12:01 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:12:01 [INFO] Bot spawned nel mondo
+2025-07-30 14:12:01 [INFO] Posizione: (-6.5, 71, -22.5)
+2025-07-30 14:12:51 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 14:12:53 [INFO] Avvio del bot Minecraft...
+2025-07-30 14:12:53 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:12:54 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:12:54 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:12:54 [INFO] Bot spawned nel mondo
+2025-07-30 14:12:54 [INFO] Posizione: (-6.5, 71, -22.5)
+2025-07-30 14:13:16 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 14:15:34 [INFO] Avvio del bot Minecraft...
+2025-07-30 14:15:34 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:15:37 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 14:15:37 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:15:37 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:15:42 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:15:43 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:15:43 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:15:43 [INFO] Bot spawned nel mondo
+2025-07-30 14:15:43 [INFO] Posizione: (-6.5, 71, -22.5)
+2025-07-30 14:16:24 [WARN] Salute bassa: 8.333334922790527/20
+2025-07-30 14:16:25 [WARN] Salute bassa: 5.833334922790527/20
+2025-07-30 14:16:26 [WARN] Salute bassa: 3.3333349227905273/20
+2025-07-30 14:16:27 [WARN] Salute bassa: 4.333334922790527/20
+2025-07-30 14:16:27 [WARN] Salute bassa: 4.333334922790527/20
+2025-07-30 14:16:27 [WARN] Salute bassa: 4.333334922790527/20
+2025-07-30 14:16:27 [WARN] Salute bassa: 1.8333349227905273/20
+2025-07-30 14:16:28 [WARN] Salute bassa: 0/20
+2025-07-30 14:16:28 [INFO] Bot è morto! Respawn in corso...
+2025-07-30 14:16:29 [INFO] Bot spawned nel mondo
+2025-07-30 14:16:29 [INFO] Posizione: (2.5, 69.10000000149012, -33.5)
+2025-07-30 14:16:39 [WARN] Salute bassa: 8.333335876464844/20
+2025-07-30 14:16:40 [WARN] Salute bassa: 5.833335876464844/20
+2025-07-30 14:16:42 [WARN] Salute bassa: 3.3333358764648438/20
+2025-07-30 14:16:42 [WARN] Salute bassa: 4.333335876464844/20
+2025-07-30 14:16:42 [WARN] Salute bassa: 4.333335876464844/20
+2025-07-30 14:16:42 [WARN] Salute bassa: 4.333335876464844/20
+2025-07-30 14:16:43 [WARN] Salute bassa: 1.8333358764648438/20
+2025-07-30 14:16:43 [WARN] Salute bassa: 0/20
+2025-07-30 14:16:43 [INFO] Bot è morto! Respawn in corso...
+2025-07-30 14:16:43 [INFO] Bot spawned nel mondo
+2025-07-30 14:16:43 [INFO] Posizione: (-3.5, 70.10000000149012, -30.5)
+2025-07-30 14:16:56 [INFO] Avvio del bot Minecraft...
+2025-07-30 14:16:56 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:16:57 [WARN] Salute bassa: 8.166666984558105/20
+2025-07-30 14:16:57 [WARN] Salute bassa: 8.333333969116211/20
+2025-07-30 14:16:57 [WARN] Salute bassa: 8.333333969116211/20
+2025-07-30 14:16:58 [WARN] Salute bassa: 5.833333969116211/20
+2025-07-30 14:16:58 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:16:58 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:16:58 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:16:58 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:16:59 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:16:59 [INFO] Bot spawned nel mondo
+2025-07-30 14:16:59 [INFO] Posizione: (-7.796060022815825, 71, -30.5)
+2025-07-30 14:16:59 [WARN] Salute bassa: 5.833333969116211/20
+2025-07-30 14:17:01 [WARN] Salute bassa: 6.833333969116211/20
+2025-07-30 14:17:01 [WARN] Salute bassa: 6.833333969116211/20
+2025-07-30 14:17:01 [WARN] Salute bassa: 6.833333969116211/20
+2025-07-30 14:17:02 [WARN] Salute bassa: 4.333333969116211/20
+2025-07-30 14:17:03 [WARN] Salute bassa: 1.833333969116211/20
+2025-07-30 14:17:03 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:04 [WARN] Salute bassa: 0/20
+2025-07-30 14:17:04 [INFO] Bot è morto! Respawn in corso...
+2025-07-30 14:17:04 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:04 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:04 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:04 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:04 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:04 [WARN] Salute bassa: 0/20
+2025-07-30 14:17:04 [INFO] Bot è morto! Respawn in corso...
+2025-07-30 14:17:04 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:04 [INFO] Posizione: (-1.5, 68.10000000149012, -32.5)
+2025-07-30 14:17:09 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:10 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:10 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:10 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:10 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:10 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:10 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:10 [INFO] Posizione: (-1.5, 68, -32.5)
+2025-07-30 14:17:15 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:15 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:15 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:15 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:15 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:15 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:15 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:15 [INFO] Posizione: (-1.5, 68, -32.5)
+2025-07-30 14:17:20 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:22 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:22 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:22 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:22 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:22 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:22 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:22 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:17:27 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:27 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:27 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:27 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:27 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:28 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:28 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:28 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:17:32 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:33 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:33 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:33 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:33 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:33 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:33 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:33 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:17:38 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:39 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:39 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:39 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:39 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:39 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:39 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:39 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:17:44 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:44 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:44 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:44 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:44 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:45 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:45 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:45 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:17:49 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:50 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:50 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:50 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:50 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:50 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:50 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:50 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:17:55 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:17:56 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:17:56 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:17:56 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:17:56 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:17:56 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:17:56 [INFO] Bot spawned nel mondo
+2025-07-30 14:17:56 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:18:01 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:18:03 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:18:03 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:18:03 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:18:03 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:18:03 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:18:03 [INFO] Bot spawned nel mondo
+2025-07-30 14:18:03 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:18:08 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:18:09 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:18:09 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:18:09 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:18:09 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:18:09 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:18:09 [INFO] Bot spawned nel mondo
+2025-07-30 14:18:09 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:18:14 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:18:14 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:18:14 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:18:14 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:18:14 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:18:15 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:18:15 [INFO] Bot spawned nel mondo
+2025-07-30 14:18:15 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 14:18:19 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 14:18:20 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 14:18:20 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 14:18:20 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 14:18:20 [INFO] Bot connesso come MinecraftBot
+2025-07-30 14:18:20 [INFO] MinecraftBot è entrato nel server
+2025-07-30 14:18:20 [INFO] Bot spawned nel mondo
+2025-07-30 14:18:20 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 15:17:00 [INFO] Avvio del bot Minecraft...
+2025-07-30 15:17:00 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 15:17:01 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 15:17:01 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 15:17:01 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 15:17:06 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 15:17:09 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 15:17:09 [INFO] Tentativo di riconnessione 2/10 in 10 secondi...
+2025-07-30 15:17:19 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 15:17:19 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 15:17:19 [INFO] Tentativo di riconnessione 3/10 in 15 secondi...
+2025-07-30 15:17:34 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 15:17:37 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 15:17:37 [INFO] Tentativo di riconnessione 4/10 in 20 secondi...
+2025-07-30 15:17:57 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 15:18:00 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 15:18:00 [INFO] Tentativo di riconnessione 5/10 in 25 secondi...
+2025-07-30 15:18:25 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 15:18:25 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 15:18:25 [INFO] Tentativo di riconnessione 6/10 in 30 secondi...
+2025-07-30 15:18:51 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 15:19:29 [INFO] Avvio del bot Minecraft...
+2025-07-30 15:19:29 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 15:19:30 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 15:19:30 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 15:19:30 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 16:17:29 [INFO] Avvio del bot Minecraft...
+2025-07-30 16:17:30 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 16:17:31 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 16:17:31 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 16:17:31 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 16:17:36 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 16:17:37 [INFO] Bot connesso come MinecraftBot
+2025-07-30 16:17:38 [INFO] MinecraftBot è entrato nel server
+2025-07-30 16:17:38 [INFO] IlLorissone è entrato nel server
+2025-07-30 16:17:38 [INFO] Bot spawned nel mondo
+2025-07-30 16:17:38 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 16:35:41 [INFO] Avvio del bot Minecraft...
+2025-07-30 16:35:41 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 16:35:42 [INFO] Bot connesso come MinecraftBot
+2025-07-30 16:35:43 [INFO] MinecraftBot è entrato nel server
+2025-07-30 16:35:43 [INFO] IlLorissone è entrato nel server
+2025-07-30 16:35:43 [INFO] Bot spawned nel mondo
+2025-07-30 16:35:43 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 16:45:36 [INFO] Avvio del bot Minecraft...
+2025-07-30 16:45:36 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 16:45:43 [INFO] Bot connesso come MinecraftBot
+2025-07-30 16:45:43 [INFO] MinecraftBot è entrato nel server
+2025-07-30 16:45:43 [INFO] IlLorissone è entrato nel server
+2025-07-30 16:45:43 [INFO] Bot spawned nel mondo
+2025-07-30 16:45:43 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:02:15 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:02:17 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:02:17 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:02:17 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:02:17 [INFO] Bot spawned nel mondo
+2025-07-30 17:02:17 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:01 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 17:05:03 [INFO] Avvio del bot Minecraft...
+2025-07-30 17:05:03 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:03 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:04 [WARN] Bot kickato dal server. Motivo: {"text":"Connection throttled! Please wait before reconnecting."}, Era loggato: false
+2025-07-30 17:05:04 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:04 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:04 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:05 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:05 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:05 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:05 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:09 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:10 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:10 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:10 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:10 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:10 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:10 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:10 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:10 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:15 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:15 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:15 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:15 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:15 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:15 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:15 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:16 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:16 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:20 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:21 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:21 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:21 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:21 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:21 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:21 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:21 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:21 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:26 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:26 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:26 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:26 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:27 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:27 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:27 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:27 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:27 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:31 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:32 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:32 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:32 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:32 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:32 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:32 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:32 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:32 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:37 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:38 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:38 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:38 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:38 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:38 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:38 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:38 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:38 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:43 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:43 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:43 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:43 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:43 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:44 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:44 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:44 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:44 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:48 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:49 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:49 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:49 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:49 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:49 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:49 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:49 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:49 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:05:54 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:05:57 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:05:57 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:05:57 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:05:57 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:05:57 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:05:57 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:05:57 [INFO] Bot spawned nel mondo
+2025-07-30 17:05:57 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:06:02 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:06:02 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:06:02 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:06:02 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:06:02 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:06:03 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:06:03 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:06:03 [INFO] Bot spawned nel mondo
+2025-07-30 17:06:03 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:06:07 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:06:08 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:06:08 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:06:08 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:06:08 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:06:09 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:06:09 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:06:09 [INFO] Bot spawned nel mondo
+2025-07-30 17:06:09 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:06:13 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:06:15 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:06:15 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:06:15 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:06:15 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:06:15 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:06:15 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:06:15 [INFO] Bot spawned nel mondo
+2025-07-30 17:06:15 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:06:20 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:06:21 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:06:21 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:06:21 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:06:21 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:06:21 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:06:21 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:06:21 [INFO] Bot spawned nel mondo
+2025-07-30 17:06:21 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:06:26 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:06:26 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:06:26 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:06:26 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:06:26 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:06:27 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:06:27 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:06:27 [INFO] Bot spawned nel mondo
+2025-07-30 17:06:27 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:06:31 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:06:32 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:06:32 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:06:32 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:06:32 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:06:32 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:06:32 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:06:32 [INFO] Bot spawned nel mondo
+2025-07-30 17:06:32 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:06:37 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:06:38 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 17:06:38 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 17:09:57 [INFO] Avvio del bot Minecraft...
+2025-07-30 17:09:57 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:09:57 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:09:57 [WARN] Bot kickato dal server. Motivo: {"text":"Connection throttled! Please wait before reconnecting."}, Era loggato: false
+2025-07-30 17:09:57 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:09:57 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:09:58 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:09:58 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:09:58 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:09:58 [INFO] Bot spawned nel mondo
+2025-07-30 17:09:58 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:02 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:10:03 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:10:03 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:10:03 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:10:03 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:10:03 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:10:03 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:10:03 [INFO] Bot spawned nel mondo
+2025-07-30 17:10:03 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:08 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:10:09 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:10:09 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:10:09 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:10:09 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:10:09 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:10:09 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:10:09 [INFO] Bot spawned nel mondo
+2025-07-30 17:10:09 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:14 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:10:14 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:10:14 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:10:14 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:10:14 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:10:15 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:10:15 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:10:15 [INFO] Bot spawned nel mondo
+2025-07-30 17:10:15 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:19 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:10:20 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:10:20 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:10:20 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:10:20 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:10:20 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:10:20 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:10:20 [INFO] Bot spawned nel mondo
+2025-07-30 17:10:20 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:25 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:10:26 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:10:26 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:10:26 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:10:26 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:10:26 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:10:26 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:10:26 [INFO] Bot spawned nel mondo
+2025-07-30 17:10:26 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:31 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:10:31 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:10:31 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:10:31 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:10:31 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:10:32 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:10:32 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:10:32 [INFO] Bot spawned nel mondo
+2025-07-30 17:10:32 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:36 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:10:38 [WARN] Bot kickato dal server. Motivo: {"translate":"multiplayer.disconnect.duplicate_login"}, Era loggato: true
+2025-07-30 17:10:38 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:10:38 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:10:38 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:10:38 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:10:38 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:10:38 [INFO] Bot spawned nel mondo
+2025-07-30 17:10:38 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:10:41 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 17:10:41 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 17:13:02 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:13:09 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:13:09 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:13:09 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:13:09 [INFO] Bot spawned nel mondo
+2025-07-30 17:13:09 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:14:07 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 17:14:11 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:14:13 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:14:13 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:14:13 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:14:13 [INFO] Bot spawned nel mondo
+2025-07-30 17:14:13 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:18:00 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:18:02 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 17:18:02 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:18:02 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:18:07 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:18:08 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:18:08 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:18:08 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:18:08 [INFO] TheRealTizio è entrato nel server
+2025-07-30 17:18:08 [INFO] Bot spawned nel mondo
+2025-07-30 17:18:08 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:18:26 [INFO] <TheRealTizio> !help
+2025-07-30 17:18:26 [INFO] [CHAT_CMD] TheRealTizio: !help
+2025-07-30 17:18:58 [INFO] <TheRealTizio> !Say Dio cane bastardo
+2025-07-30 17:18:58 [INFO] [CHAT_CMD] TheRealTizio: !Say Dio cane bastardo
+2025-07-30 17:23:54 [INFO] TheRealTizio ha lasciato il server
+2025-07-30 17:24:56 [INFO] Hacker è entrato nel server
+2025-07-30 17:25:26 [INFO] <Hacker> Sono venuto per scoparti la madre
+2025-07-30 17:25:40 [INFO] <Hacker> sono venuto per scoparti la madre
+2025-07-30 17:25:44 [INFO] <Hacker> jsj
+2025-07-30 17:25:48 [INFO] <Hacker> j
+2025-07-30 17:25:50 [INFO] <Hacker> nn
+2025-07-30 17:25:56 [INFO] <IlLorissone> CIAO NIC0
+2025-07-30 17:26:02 [INFO] Hacker ha lasciato il server
+2025-07-30 17:35:40 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:35:42 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 17:35:42 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:35:42 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:35:47 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:35:48 [INFO] Bot connesso come MinecraftBot
+2025-07-30 17:35:48 [INFO] MinecraftBot è entrato nel server
+2025-07-30 17:35:48 [INFO] IlLorissone è entrato nel server
+2025-07-30 17:35:48 [INFO] Bot spawned nel mondo
+2025-07-30 17:35:48 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 17:46:34 [INFO] IlLorissone ha lasciato il server
+2025-07-30 17:58:45 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:58:46 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 17:58:46 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:58:46 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 17:58:51 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:58:52 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:58:52 [INFO] Tentativo di riconnessione 2/10 in 10 secondi...
+2025-07-30 17:59:02 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:59:02 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:59:02 [INFO] Tentativo di riconnessione 3/10 in 20 secondi...
+2025-07-30 17:59:22 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 17:59:25 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 17:59:25 [INFO] Tentativo di riconnessione 4/10 in 40 secondi...
+2025-07-30 17:59:59 [INFO] Ricevuto SIGTERM, spegnimento del bot...
+2025-07-30 18:02:13 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:02:19 [INFO] Bot connesso come MinecraftBot
+2025-07-30 18:02:19 [INFO] MinecraftBot è entrato nel server
+2025-07-30 18:02:19 [INFO] Bot spawned nel mondo
+2025-07-30 18:02:19 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 18:11:31 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:11:32 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 18:11:32 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:11:32 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 18:11:37 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:12:07 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:12:07 [INFO] Tentativo di riconnessione 2/10 in 10 secondi...
+2025-07-30 18:12:17 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:12:18 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 18:12:18 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:12:18 [INFO] Tentativo di riconnessione 3/10 in 20 secondi...
+2025-07-30 18:12:38 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:12:38 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:12:38 [INFO] Tentativo di riconnessione 4/10 in 40 secondi...
+2025-07-30 18:13:18 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:13:19 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:13:19 [INFO] Tentativo di riconnessione 5/10 in 60 secondi...
+2025-07-30 18:14:19 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:14:19 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:14:19 [INFO] Tentativo di riconnessione 6/10 in 60 secondi...
+2025-07-30 18:15:19 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:15:21 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 18:15:21 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:15:21 [INFO] Tentativo di riconnessione 7/10 in 60 secondi...
+2025-07-30 18:16:21 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:16:23 [INFO] Bot connesso come MinecraftBot
+2025-07-30 18:16:23 [INFO] MinecraftBot è entrato nel server
+2025-07-30 18:16:24 [INFO] Bot spawned nel mondo
+2025-07-30 18:16:24 [INFO] Posizione: (-1.705125, 62, -35.7)
+2025-07-30 18:46:28 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:46:29 [ERROR] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-07-30 18:46:29 [WARN] Bot disconnesso. Motivo: socketClosed
+2025-07-30 18:46:29 [INFO] Tentativo di riconnessione 1/10 in 5 secondi...
+2025-07-30 18:46:34 [INFO] Tentativo di connessione al server Gruppovideogiochi.aternos.me...
+2025-07-30 18:46:35 [INFO] Bot connesso come MinecraftBot
+2025-07-30 18:46:36 [INFO] MinecraftBot è entrato nel server
